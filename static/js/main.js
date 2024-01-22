@@ -3,8 +3,8 @@ document.getElementById("button").addEventListener("click", randomFunc);
 function randomFunc(event){
     event.preventDefault();
 
-    var par1 = document.getElementById("par1").value;
-    var par2 = document.getElementById("par2").value;
+     var par1 = Number(document.getElementById("par1").value);
+    var par2 = Number(document.getElementById("par2").value);
 
     var res = Math.round(Math.random() * (par2 - par1) + par1);
 
