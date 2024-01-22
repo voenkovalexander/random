@@ -1,0 +1,161 @@
+html,body{
+  margin: 0;
+  height: 100%;
+  background-color: white;
+
+}
+
+.dark-theme{
+  filter: invert(1);
+}
+
+
+body{
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.dark-button{
+  width: 15rem;
+  display: flex;
+}
+
+.dark-button>p{
+  cursor: pointer;
+}
+
+.output{
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 1rem;
+  
+}
+
+.output>span{
+  font-size: 2rem;
+}
+
+.parameters{
+  width: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.par{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 1rem;
+  width: 6rem;
+}
+
+.par>input{
+  text-align: center;
+  background-color: transparent;
+  width: 4rem;
+  border-style: none;
+}
+
+.par>input:hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 3rem;
+  border-style: solid;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.button:active{
+  background-color: rgb(91, 88, 88);
+}
+
+
+@media (min-width: 1280px){
+
+  .dark-button{
+    width: 30rem;
+    display: flex;
+  
+  }
+
+  .output{
+    width: 30rem;
+    height: 10rem;
+  }
+
+  .output>span{
+    font-size: 4rem;
+  }
+
+  .parameters{
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  
+  .par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 12rem;
+  }
+  
+  .par>input{
+    text-align: center;
+    background-color: transparent;
+    width: 8rem;
+    border-style: none;
+    font-size: 1.5rem;
+  }
+  
+  .par>input:hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+  
+  .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 6rem;
+    border-style: solid;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+
+  .button>span{
+    font-size: 2rem;
+  }
+
+}

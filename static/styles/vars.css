@@ -1,0 +1,54 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --white: #ffffff;
+    --grey: #f5f3f2;
+    --blue: #252b41;
+    --red: #f0243f;
+    --inputs: #9498a5;
+  
+    /* Fonts */
+    --h-1-font-family: Golos-TextMedium, sans-serif;
+    --h-1-font-size: 80px;
+    --h-1-line-height: 100%;
+    --h-1-font-weight: 400;
+    --h-1-font-style: normal;
+    --h-1-mobile-font-family: Golos-TextMedium, sans-serif;
+    --h-1-mobile-font-size: 40px;
+    --h-1-mobile-line-height: 100%;
+    --h-1-mobile-font-weight: 400;
+    --h-1-mobile-font-style: normal;
+    --h-2-font-family: Golos-TextMedium, sans-serif;
+    --h-2-font-size: 60px;
+    --h-2-line-height: 100%;
+    --h-2-font-weight: 400;
+    --h-2-font-style: normal;
+    --h-2-mobile-font-family: Golos-TextMedium, sans-serif;
+    --h-2-mobile-font-size: 30px;
+    --h-2-mobile-line-height: 100%;
+    --h-2-mobile-font-weight: 400;
+    --h-2-mobile-font-style: normal;
+    --txt-22-font-family: Golos-TextMedium, sans-serif;
+    --txt-22-font-size: 22px;
+    --txt-22-line-height: 110%;
+    --txt-22-font-weight: 400;
+    --txt-22-font-style: normal;
+    --txt-18-font-family: Golos-TextMedium, sans-serif;
+    --txt-18-font-size: 18px;
+    --txt-18-line-height: 110%;
+    --txt-18-font-weight: 400;
+    --txt-18-font-style: normal;
+    --txt-16-font-family: Golos-TextRegular, sans-serif;
+    --txt-16-font-size: 16px;
+    --txt-16-line-height: 110%;
+    --txt-16-font-weight: 400;
+    --txt-16-font-style: normal;
+    --txt-12-font-family: Golos-TextRegular, sans-serif;
+    --txt-12-font-size: 12px;
+    --txt-12-line-height: 110%;
+    --txt-12-font-weight: 400;
+    --txt-12-font-style: normal;
+  
+    /* Effects */
+  }
+  
